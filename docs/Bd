@@ -1,0 +1,22 @@
+Sobre o banco de dados:
+
+O banco de dados é a informação que queremos guardadar.
+Existem SGBD's que são sistemas(a interface) que gerenciam o banco de dados(a informação) por meio de operações CRUD(criar, ler, atualizar e deletar)
+
+Existem tipos de bancos de dados:
+Os relacionais, que são aqueles em que os dados são guardados em tabelas e usa a linguagem SQL para realizar o CRUD.
+Os não relacionais que ao invés de tabelas, usa documentos, chave-valor, objetos entre outros para guardar as informações.
+
+Sobre o local em que esse banco de dados vai estar guardado:
+Bancos de dados como o postgresql, mysql, sqlite, hive e objectBox são armazenados localmente, na própria rede.
+Saibam que para estes os dados do aplicativo não funcionaria fora do sítio, a não ser que a gente "suba" o banco de dados local para a nuvem. (No slide p.15 tem o nome de alguns servidores para subir o servidor local, não me aprofundei nos custos e nem nas configurações deles.)
+
+Se já pegarmos um banco na nuvem como o mongodb, firebase ou supabase, não vamos precisar se preocupar com servidor, mas existe cobrança pelo uso caso expanda. (De qualquer forma se a gente usar um banco local e subir para a nuvem também teremos que pagar).
+
+Então acho que para o nosso projeto, seria mais interessante criar o banco na nuvem mesmo, usando o mongoDB, firebase ou supabase. Os três tem plano gratuito, no slide p20 tem as comparações do gratuito dos 3.
+
+No caso, dos 3, o supabase é o único que é relacional(usa SQL e guarda os dados em tabelas), os outros dois usa documentos.
+
+Sobre ser relacional ou não relacional, acho que para o nosso projeto seria mais adequado um não relacional, por que existe a possibilidade dele expandir futuramente, então a gente não sabe exatamente a estrutura fechada de como seriam os dados, algo que para os bancos relacionais é necessário, pois usa tabelas fixas.
+
+Agora sobre, a questão do app funcionar offline, existe a opção de usar o hive(um pacote que fornece banco de dados no flutter) localmente e integrar ele com um dos bancos de dados na nuvem. Assim o app funcionaria tanto com internet, como sem.

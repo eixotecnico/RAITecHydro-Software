@@ -1,0 +1,75 @@
+
+name: meu_app
+description: "Aplicativo para controle de regador automático de plantas"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.6.12
+  firebase_database: ^11.3.10
+
+  # Login e autenticação
+  google_sign_in: ^6.2.1
+
+  # Imagens
+  image_picker: ^1.0.7
+
+  # Ícones do Flutter
+  cupertino_icons: ^1.0.6
+
+  # Armazenamento local
+  shared_preferences: ^2.2.2
+
+  # Gráficos
+  fl_chart: ^0.64.0
+
+  # State Management (opcional)
+  # provider: ^6.1.1
+  # flutter_bloc: ^8.1.3
+
+  # Network (opcional)
+  # http: ^1.1.0
+  # dio: ^5.3.2
+
+  # Notifications (opcional)
+  # flutter_local_notifications: ^16.1.0
+
+  # Device Info (opcional)
+  # device_info_plus: ^9.1.0
+
+  # Permissions (opcional)
+  # permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/plantas/
+    - assets/images/automacao/
+    - assets/images/google.png
+    - assets/images/bg.jpg
+    - assets/images/plantas.jpg
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"

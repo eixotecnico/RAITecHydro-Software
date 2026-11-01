@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "1046534327893",
+    "firebase_url": "https://regador-automatico-40b2c-default-rtdb.firebaseio.com",
+    "project_id": "regador-automatico-40b2c",
+    "storage_bucket": "regador-automatico-40b2c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046534327893:android:a998e6dc337c0d6a51cedc",
+        "android_client_info": {
+          "package_name": "com.example.meu_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046534327893-4l3ff6dcqiu9jmfbmdng7bcnlobdk4f8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meu_app",
+            "certificate_hash": "cbad31d506f0f11bad590b65f594611785b7b1cc"
+          }
+        },
+        {
+          "client_id": "1046534327893-pc7qi59lrqq20fjb7fjk585likl3in3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIKahCO0k1DXVz2Aeeu7l0xQe08dE7NNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046534327893-pc7qi59lrqq20fjb7fjk585likl3in3e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1046534327893-3sbsggrcqn6eumfuaer19aabml6k8tjd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sensoresApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046534327893:android:84f05b3401a7147451cedc",
+        "android_client_info": {
+          "package_name": "com.example.sensores_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046534327893-pc7qi59lrqq20fjb7fjk585likl3in3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIKahCO0k1DXVz2Aeeu7l0xQe08dE7NNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046534327893-pc7qi59lrqq20fjb7fjk585likl3in3e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1046534327893-3sbsggrcqn6eumfuaer19aabml6k8tjd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sensoresApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
